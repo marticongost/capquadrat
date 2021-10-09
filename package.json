@@ -1,0 +1,20 @@
+{
+    "name": "capquadrat",
+    "version": "0.1.0",
+    "description": "Responsive CSS grid system",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky install"
+    },
+    "author": "Martí Congost",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "husky": "^7.0.2",
+        "lint-staged": "^11.2.1"
+    },
+    "lint-staged": {
+        "*.js": "eslint --cache --fix"
+    }
+}
